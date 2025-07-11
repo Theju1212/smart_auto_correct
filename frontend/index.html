@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart AutoCorrect + AI Editor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>✨ Smart AutoCorrect + AI Editor</h1>
+
+  <label for="userText">Enter your sentence:</label><br>
+  <textarea id="userText" placeholder="Type something like: i a theju or ma od less ou"></textarea><br>
+
+  <label for="mode">Choose Mode:</label><br>
+  <select id="mode">
+    <option value="grammar">Grammar</option>
+    <option value="polite">Polite Tone</option>
+    <option value="expand">Expand</option>
+    <option value="shorten">Shorten</option>
+    <option value="confident">Confident Tone</option>
+  </select><br>
+
+  <button onclick="correctSentence()">✅ Correct Sentence</button>
+
+  <div id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

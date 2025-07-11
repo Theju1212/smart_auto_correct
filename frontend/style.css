@@ -1,0 +1,71 @@
+/* style.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f7f8fc, #dce3ff);
+  padding: 40px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #3b4cca;
+  margin-bottom: 30px;
+  font-size: 32px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 16px;
+  resize: none;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+textarea:focus {
+  border-color: #3b4cca;
+  outline: none;
+}
+
+select, button {
+  padding: 12px 20px;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+select {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+button {
+  background-color: #3b4cca;
+  color: white;
+}
+
+button:hover {
+  background-color: #2e3bbd;
+}
+
+#output {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #1d8122;
+  background: #e8f5e9;
+  padding: 20px;
+  border-left: 5px solid #4caf50;
+  border-radius: 10px;
+  white-space: pre-wrap;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
