@@ -2,7 +2,7 @@ function correctSentence() {
   const text = document.getElementById("userText").value;
   const mode = document.getElementById("mode").value;
 
-  fetch("http://127.0.0.1:5000/correct", {
+  fetch("https://smart-auto-correct.onrender.com/correct", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
